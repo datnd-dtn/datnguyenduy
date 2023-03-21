@@ -15,10 +15,10 @@ paginate = 5
 
 [languages]
   [languages.en]
-    title = "Hello Friend"
-    subtitle = "A simple theme for Hugo"
+    title = "Hello datdtn"
+    subtitle = "Co mot ngay nao do"
     keywords = ""
-    copyright = ""
+    copyright = "By Dat"
     menuMore = "Show more"
     writtenBy = "Written by"
     readMore = "Read more"
@@ -26,11 +26,11 @@ paginate = 5
     newerPosts = "Newer posts"
     olderPosts = "Older posts"
     minuteReadingTime = "min read"
-    dateFormatSingle = "2006-01-02"
-    dateFormatList = "2006-01-02"
+    dateFormatSingle = "20023-01-02"
+    dateFormatList = "20023-01-02"
 
     [languages.en.params.logo]
-      logoText = "hello friend"
+      logoText = "datdtn"
       logoHomeLink = "/"
     # or
     #
@@ -46,3 +46,11 @@ paginate = 5
         identifier = "showcase"
         name = "Showcase"
         url = "/showcase"
+        [[languages.en.menu.main]]
+        identifier = "test"
+        name = "Test"
+        url = "/test"
+        [[languages.en.menu.main]]
+        identifier = "test1"
+        name = "Test1"
+        url = "/test1"
